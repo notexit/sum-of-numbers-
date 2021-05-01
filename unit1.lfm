@@ -1,0 +1,138 @@
+object Form1: TForm1
+  Left = 1485
+  Height = 437
+  Top = 129
+  Width = 867
+  Caption = 'Програма'
+  ClientHeight = 437
+  ClientWidth = 867
+  LCLVersion = '2.0.12.0'
+  object StringGrid1: TStringGrid
+    Left = 17
+    Height = 288
+    Top = 24
+    Width = 647
+    ColCount = 10
+    RowCount = 10
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 734
+    Height = 26
+    Top = 56
+    Width = 29
+    TabOrder = 1
+  end
+  object Edit2: TEdit
+    Left = 734
+    Height = 26
+    Top = 112
+    Width = 29
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 715
+    Height = 26
+    Top = 168
+    Width = 80
+    Caption = 'Почати'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 256
+    Height = 17
+    Top = 328
+    Width = 8
+    Caption = '0'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 683
+    Height = 17
+    Top = 32
+    Width = 158
+    Caption = 'Введіть кількість стрічок'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 683
+    Height = 17
+    Top = 88
+    Width = 175
+    Caption = 'Введіть кількість стопчиків'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 17
+    Top = 328
+    Width = 159
+    Caption = 'Сума парних стопчиків : '
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 768
+    Height = 17
+    Top = 56
+    Width = 27
+    Caption = '<= 9'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 768
+    Height = 17
+    Top = 112
+    Width = 27
+    Caption = '<= 9'
+    ParentColor = False
+  end
+  object Label7: TLabel
+    Left = 552
+    Height = 17
+    Top = 328
+    Width = 8
+    Caption = '0'
+    ParentColor = False
+  end
+  object Label8: TLabel
+    Left = 368
+    Height = 17
+    Top = 328
+    Width = 152
+    Caption = 'Сума всіх парних чисел'
+    ParentColor = False
+  end
+  object Label9: TLabel
+    Left = 552
+    Height = 17
+    Top = 352
+    Width = 8
+    Caption = '0'
+    ParentColor = False
+  end
+  object Label10: TLabel
+    Left = 368
+    Height = 17
+    Top = 352
+    Width = 172
+    Caption = 'Сума всіх не парних чисел'
+    ParentColor = False
+  end
+  object Label11: TLabel
+    Left = 24
+    Height = 17
+    Top = 352
+    Width = 196
+    Caption = 'Сума всіх не парних стопчиків'
+    ParentColor = False
+  end
+  object Label12: TLabel
+    Left = 256
+    Height = 17
+    Top = 352
+    Width = 8
+    Caption = '0'
+    ParentColor = False
+  end
+end
